@@ -134,6 +134,15 @@ nav ul li{
     display: block; 
 }
 
+ nav ul li a:hover {
+	padding : 3px;
+	background-image:url(../images/img05.jpg);
+	border-radius: 4px;
+	color:#fff;
+	font-size: 0.9em;
+		
+}
+
 
 .main-pic{
 	margin-top:10px;
@@ -164,7 +173,7 @@ nav ul li{
 
 .sections ul li{
 	display:inline-block;
-
+	
 		
 }
 
@@ -229,6 +238,21 @@ nav ul li{
 	
 }
 
+.comments{
+	padding:7px;
+	background-image:url(../images/img05.jpg);
+	border-radius: 4px;
+	display: inline;
+	float: left;
+	margin-left: 25px;
+}
+.comments a{
+	text-align: left;
+	color:#fff;;
+	font-size: 0.8em;
+	
+}
+
 .welcome{
 	width:64%;
 	float:left;
@@ -241,47 +265,117 @@ nav ul li{
 }
 
 
+.category{
+	list-style-type: none;
+    padding: 0;
+    display: block;	
+}
+
+.category li{
+	display:block;
+	width:100%;
+		
+}
+
+.category li a{
+    color: black;      
+	font-size: 0.9em;
+ 	font-weight: bold;
+    text-decoration: none;
+	float:left;
+}
+
+
+.category li img{
+	display:block;
+	float:left;
+	margin-top: 5px;
+	margin-right:5px;
+}
+
 .space-cw{
 	width: 4%;
 		float:left;
 	}
 
 
-.footer{
-	width: 670px;
-	color:#68361B;;
-	font-size: 8pt;
-	margin: 0 auto;
-	margin-bottom: 10px;
+.footer-header{
+	color: #fff;    
+    text-transform: uppercase;    
+    text-align: left;
+	font-size: 1.1em;
+ 	font-weight: bold;
+    text-decoration: none;
+}
+
+.footer-main{
+	color: #fff;     
+    text-align: left;
+	font-size: 0.9em;
+    text-decoration: none;
+    line-height: 1.5;
 }
 
 
-.footer ul{
+
+.footer{
+	width: 100%;
+	background-image:url(../images/img05.jpg);
+	display:block;
+}
+
+
+.footer-container{
+	width : 900px;
+	margin:0 auto;	
+}
+
+.sections-footer{
+
+	display: block;
+	width: 100%;
+}
+
+
+.sections-footer ul{
 
 	list-style-type: none;
     padding: 0;
     display: block;	
 }
 
-.footer ul li{
-
-    display: inline-block;	
+.sections-footer ul li{
+	display:inline-block;
+	
+		
 }
 
-.footer ul li a{
+.sections-w{
 
-    color:#68361B;
-	font-size: 8pt;
-}
-
-.footer-right{
-	float:right;
+	display: inline-block;
+	width: 100%;
 }
 
 
-.footer-left{
-	float:left;
+.sections-w ul{
+
+	list-style-type: none;
+    padding: 0;
+    display: block;	
 }
+
+.sections-w ul li{
+	display:inline-block;
+	
+		
+}
+
+
+.line{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
 
 .clearfix{
 	clear:both;
